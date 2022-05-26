@@ -155,20 +155,97 @@
 
 <h1>Get your message boosted today!</h1>
 <!-- Free content -->
-    <p><B>Our service is simple.</B> <br>Complete the payment for the engagement boost, & submit the tweet URL. <br> Our team will review your submission. Once approved, our contractors will get to work. <br><br> <b>Our pricing is simple.</b><br> $5.00 for 50 likes & 50 retweets. <br> + $1.00 Service Fee for the tweet boost. <br>Our contractors are paid $0.10 per like/retweet engagement on your post.
+    <p><B>Our service is simple.</B> <br>Complete the payment for the engagement boost, & submit the tweet URL. <br> Our team will review your submission. Once approved, our contractors will get to work. <br><br> <b>Our pricing is simple.</b><br> $5.00 USD for 50 likes & 50 retweets. <br> + $1.00 USD Service Fee for the tweet boost. <br>Our contractors are paid $0.10USD per like/retweet engagement on your post.
+<br>Total cost $7.69 CAD  / $6.00 USD
 
 <br><br><b>We use Money Button as our global payment processor.</b> <br> Money Button enables instant settlement payments to anywhere in the world. <br>You can top-up your wallet using a credit card on the Money Button Dashboard.<br>You can create your Money Button Payment wallet on <a href="https://moneybutton.com">Money Button's Website</a></p>
 
     <p>Each time you purchase our service,<br> you will receive <b>1 BOOST tokens</b> to your Money Button Wallet. <br> You can redeem <b>20 BOOST Tokens</b> for a free engagement listing.</p>
     
-<p><em>Slide the Money Button to compete the purchase.<br> Once you have processed the payment, <br>the form will appear within a few seconds to submit the tweet URL for engagement boosting.</em>
+<p><em>There are two payment options available. Select "Pay with CC" to pay with a credit card & submit the Tweet URL. <br>Alternatively, You can slide the Money Button to compete the purchase & submit the Tweet URL.<br> 
 <center>
+<div>
+  <div><div style="
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 259px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
+  ">
+  <img src="https://items-images-production.s3.us-west-2.amazonaws.com/files/52e8395ca280976974d5d776062523de777879b7/original.png" alt="Tweet Engagement" onerror="this.style.display='none'" style="width: 100%;">
+  <div style="padding: 20px;">
+  <p style="
+    font-size: 18px;
+    line-height: 20px;
+  ">Tweet Engagement</p>
+  <p style="
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+  ">$7.69</p>
+  <a target="_blank" data-url="https://square.link/u/Dt2NYwjn?src=embd" href="https://square.link/u/Dt2NYwjn?src=embed" style="
+    display: inline-block;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    color: #ffffff;
+    min-width: 212px;
+    background-color: #006aff;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+    border-radius: 6px;
+  ">Pay CAD w/ CC</a>
+  </div>
+</div>
+</div>
+<br>
+  <script>
+    function showCheckoutWindow(e) {
+      e.preventDefault();
+
+      const url = document.getElementById('embedded-checkout-modal-checkout-button').getAttribute('data-url');
+      const title = 'Square Online Checkout';
+
+      // Some platforms embed in an iframe, so we want to top window to calculate sizes correctly
+      const topWindow = window.top ? window.top : window;
+
+      // Fixes dual-screen position                                Most browsers          Firefox
+      const dualScreenLeft = topWindow.screenLeft !==  undefined ? topWindow.screenLeft : topWindow.screenX;
+      const dualScreenTop = topWindow.screenTop !==  undefined   ? topWindow.screenTop  : topWindow.screenY;
+
+      const width = topWindow.innerWidth ? topWindow.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+      const height = topWindow.innerHeight ? topWindow.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+      const h = height * .75;
+      const w = 500;
+
+      const systemZoom = width / topWindow.screen.availWidth;
+      const left = (width - w) / 2 / systemZoom + dualScreenLeft;
+      const top = (height - h) / 2 / systemZoom + dualScreenTop;
+      const newWindow = window.open(url, title, `scrollbars=yes, width=${w / systemZoom}, height=${h / systemZoom}, top=${top}, left=${left}`);
+
+      if (window.focus) newWindow.focus();
+    }
+
+    // This overrides the default checkout button click handler to show the embed modal
+    // instead of opening a new tab with the given link url
+    document.getElementById('embedded-checkout-modal-checkout-button').addEventListener('click', function (e) {
+      showCheckoutWindow(e);
+    });
+  </script>
+</div>
 <!-- Money Button -->
 <div class="money-button"
   data-to="21534"
-  data-amount="6.00"
-  data-currency="USD"
-  data-label="Service Fee"
+  data-amount="7.69"
+  data-currency="CAD"
+  data-label="USD Fee"
   data-client-identifier="9981645a3e83f2941b9574288e85d182"data-button-id="1652826574446"
   data-button-id="1539888464998"
   data-button-data="{}"
@@ -219,7 +296,7 @@
         <section class="page-section bg-info text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About It's Daily WORK</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white">About Tweet Engagement</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -228,9 +305,9 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Tweet Engagement is a premium service that allows individuals to acquire an engagement boost for Tweets.   <p></div>
+                    <div class="col-lg-4 ms-auto"><p class="lead">Tweet Engagement is a premium service that allows individuals to acquire an engagement boost for Tweets. Payments can be made with Credit Card, or Bitcoin SV using Money Button   <p></div>
                     <div class="col-lg-3 me-auto"><p class="lead">With competitive rates, you can be sure you are getting the best value. Our work contractors are committed to providing valuable engagement for you. </div>
-                    <div class="col-lg-5 me-auto"><p class="lead">This service was launched by Digital Currency Daily (DCD) in an effort to enpower individuals to get their message heard. All payments are processed using the Bitcoin SV Blockchain.</p></div>
+                    <div class="col-lg-5 me-auto"><p class="lead">This service was launched by Digital Currency Daily (DCD) in an effort to empower individuals to get their message heard. All payments to contractors are processed using the Bitcoin SV Blockchain.</p></div>
                 </div> 
                 
                 
