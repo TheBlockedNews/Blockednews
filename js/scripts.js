@@ -52,3 +52,9 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+const {HandCashConnect} = require('@handcash/handcash-connect');
+const handCashConnect = new HandCashConnect({ 
+   appId: '62a695200b05b7675649bacc', 
+   appSecret: '9a063ab2036a52cf568bce9dbf59be2f8c3823d6ea6b2a75066843c86be59f60',
+});
+const redirectionLoginUrl =  handCashConnect.getRedirectionUrl();
