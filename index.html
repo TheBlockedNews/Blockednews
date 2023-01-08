@@ -44,16 +44,24 @@
   width: 50%;
   height: 75px;
   border-radius: 10px;
-border: 2px solid black;
+border: 3px solid black;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+margin-bottom:10px;
 
 }
 .column {
   float: left;
-  width: 50%;
-border-width: 2px;
+  width: 30%;
+height: 400px;
+margin-left:30px;
+margin-right:10px;
+border-radius:2px;
+margin-bottom:10px;
+padding-top:10px;
+padding-bottom:10px;
+border: 3px solid black;
 }
 
 /* Clear floats after the columns */
@@ -146,8 +154,14 @@ margin-right: 25px;
     
        
 <div class="row"> 
-    <div class="column" >test</div>
-    <div class="column" >teest</div>
+<h2>Explore</h2>
+    <div class="column" ><iframe src="https://widget.nicehash.com/countdown/bsv-halving-2024-07-11-12-00" width="300" height="400" scrolling="no" id="nhiframe"></iframe></div>
+
+    <div class="column" ><script async src="https://static.coinstats.app/widgets/coin-list-widget.js"></script>
+<coin-stats-list-widget locale="en" currency="USD" bg-color="#1C1B1B" status-up-color="#74D492" status-down-color="#FE4747" text-color="#FFFFFF" font="Roboto, Arial, Helvetica" border-color="rgba(255,255,255,0.15)" width="500" height="300" coin-ids="bitcoin,bitcoin-cash,bitcoin-sv,ethereum,ripple,dogecoin"></coin-stats-list-widget></div>
+
+<div class="column"><a class="minerstat-widget" title="BSV mining calculator" data-coin="BSV" data-algo="SHA-256" data-info="yes" data-style="light" data-color="" data-unit="TH" data-hashrate="100" data-width="370" rel="nofollow" href="https://minerstat.com/coin/BSV">Bitcoin SV mining calculator</a><script async src="https://api.minerstat.com/v2/widgets/coin.js" charset="utf-8"></script></div>
+<br>
  </section>
         <!-- Footer-->
         <footer class="footer text-center">
@@ -161,7 +175,7 @@ margin-right: 25px;
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Follow us</h4>
                        
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/tweetengagem3nt"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/theblockednews"><i class="fab fa-fw fa-twitter"></i></a>
                        
                     </div>
                     <!-- Footer About Text-->
@@ -178,7 +192,7 @@ margin-right: 25px;
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Tweet Engagement 2022</small></div>
+            <div class="container"><small>Copyright &copy; The Blocked Media</small></div>
         </div>
      
                         </div>
