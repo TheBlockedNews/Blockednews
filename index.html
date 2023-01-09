@@ -118,6 +118,55 @@ display: inline-block;
     .button3 {border-radius: 12px;
         background-color: #0000ED;}
       
+/////
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial;
+    border: 2px solid black;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 30px;
+  color: skyblue;
+  text-align: center;
+  
+margin-left:30px;
+margin-right:30px;
+  text-decoration: none;
+    border: 5px solid black;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: black;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+
+
+}
+
   </style>
       
 <body id="page-top">
@@ -125,8 +174,13 @@ display: inline-block;
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container"> 
  <img class="logo" src="assets/TBN.png" > 
-                <a class="navbar-brand" href="#page-top">The Blocked News </a>
-               
+                <a class="navbar-brand" >The Blocked News </a></div>
+               <div class="navbar">
+  <a href="index.html">News</a>
+  <a href="donate.html">Contribute</a>
+  <a href="index.html">Socials</a>
+ 
+  </div>
             
                     </ul>
                 </div>
@@ -138,16 +192,10 @@ display: inline-block;
        
     
    
-<br><br><center>
 
-<a href="index.html"> 
-<button class="button button3 ">News</button>
-          </a>
 
-<a href="donate.html"> 
-<button class="button button3">Contribute</button>
-          </a></center>
-<center>
+<div class="container"> 
+<center><br><br><br><br><br><br>
 <h1>The Latest News Reporting</h1>
 <!-- Free content -->
     <p><B>We say the things others won't.</B> <br>Like it or not. 
